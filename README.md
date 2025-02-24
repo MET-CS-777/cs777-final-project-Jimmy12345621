@@ -7,10 +7,15 @@ Libraries for plotting (Matplotlib, Seaborn)
 How to Run:
 
 Step 1: Place the CSV file in the designated data directory.
+        
         using code: 
+    
     here = os.path.abspath('Utility_Energy_Registry_Monthly_ZIP_Code_Energy_Use__2016-2021_20250220.csv')
+    
     input_dir = os.path.abspath(os.path.join(here, os.pardir))
+    
     data_path = os.path.join(input_dir, "Utility_Energy_Registry_Monthly_ZIP_Code_Energy_Use__2016-2021_20250220.csv")
+    
     df = spark.read.format("csv").option("header", "true").option("inferSchema", "true").load(data_path)
 
 Step 2: Open your terminal or IDE configured for PySpark.
