@@ -24,4 +24,4 @@ Step 3: Run the Python script
 
 Step 4: Output files  and plots will be saved in the output folder.
 
-dataset link: https://data.ny.gov/Energy-Environment/Utility-Energy-Registry-Monthly-ZIP-Code-Energy-Us/tzb9-c2c6/about_data (please copy this link to the web browser and open it. It can not be opened by just clicking it and I don't know how.)
+dataset link: https://data.ny.gov/Energy-Environment/Utility-Energy-Registry-Monthly-ZIP-Code-Energy-Us/tzb9-c2c6/about_data (please copy this link to the web browser and open it. It can not be opened by just clicking it and I don't know why.)
